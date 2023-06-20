@@ -1,0 +1,354 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+  font-family: "Lato", "arial";
+  margin: 0;
+  padding: 0;
+}
+
+/* Project-1 : Generate Quotes */
+
+/* body {
+  align-items: center;
+  background: url(./images/project-1.jpeg) no-repeat center center/ cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  height: 450px;
+  width: 550px;
+}
+
+.header {
+  background-color: #262626;
+  border: solid 2px #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 20px auto;
+  padding: 5px;
+  width: 80%;
+}
+
+.main-content {
+  width: 100%;
+  height: 300px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 10px;
+}
+
+.main-content .text-area {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.main-content .person {
+  font-size: 1.6rem;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.button-area button {
+  background-color: #262626;
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.button-area button:active {
+  background-color: lightblue;
+} */
+
+/* Project-2 : Modal */
+
+/* body {
+  background: url(./images/project-2.jpg) no-repeat center center/ cover;
+  height: 100vh;
+  position: relative;
+}
+
+#open-btn {
+  backdrop-filter: blur(5px);
+  background: #fff3;
+  border-radius: 10px;
+  border: soild 2px #fff;
+  box-shadow: 0 0 3px #000;
+  color: #fff;
+  font-size: 2rem;
+  height: 80px;
+  left: 10%;
+  padding: 5px;
+  position: absolute;
+  top: 70%;
+  transition: 0.5s;
+  width: 350px;
+}
+
+#open-btn:hover {
+  background: #fff8;
+  color: #000;
+}
+
+#modal {
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: #fff8;
+  border-radius: 5px;
+  display: flex;
+  font-size: 1.5rem;
+  height: 100px;
+  justify-content: space-between;
+  left: 50%;
+  padding: 10px 20px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+
+  animation-name: animated-modal;
+  animation-duration: 0.4s;
+}
+
+#close-btn {
+  color: #ff0000;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+#modal-container {
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: #0002;
+}
+
+@keyframes animated-modal {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  top {
+    top: 50%;
+    opacity: 1;
+  }
+} */
+
+/* Project-3 : Accordion */
+
+/* body {
+  align-items: center;
+  background: url(./images/project-3.jpg) no-repeat center center/ cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.accordion {
+  background: #fff8;
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  padding: 30px;
+  width: 65%;
+}
+
+.accordion .accordion-title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.accordion .content-container .question {
+  border-bottom: solid 1px #000;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 18px 0px;
+  position: relative;
+}
+
+.accordion .content-container .question::after {
+  content: "+";
+  position: absolute;
+  right: -5px;
+}
+
+.accordion .content-container .answer {
+  font-size: 22px;
+  height: 0px;
+  line-height: 1.5;
+  overflow: hidden;
+  padding-top: 15px;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.accordion .content-container.active .answer {
+  height: 150px;
+}
+
+.accordion .content-container.active .question {
+  font-size: 22px;
+  transition: 0.5s;
+}
+
+.accordion .content-container.active .question::after {
+  content: "-";
+} */
+
+/* Project-4 : Stop-Watch */
+
+/* body {
+  align-items: center;
+  background: url("./images/project-4.jpg") no-repeat center center/ cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff8;
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+  height: 250px;
+  width: 60%;
+}
+
+#timer {
+  font-size: 72px;
+  margin: 0px auto;
+  padding: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  border: none;
+  margin: 0 10px;
+}
+
+button i {
+  color: #fff;
+  font-size: 2rem;
+  padding: 10px;
+  width: 50px;
+}
+
+#play {
+  background-color: green;
+}
+
+#pause {
+  background-color: orange;
+}
+
+#reset {
+  background-color: red;
+} */
+
+/* Project-5 : To Do List */
+
+body {
+  align-items: center;
+  background: url(./images/project-5.jpg) no-repeat center center/ cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+#add-task-container {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 3px;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+  width: 350px;
+}
+
+input {
+  border-radius: 10px;
+  flex: 5;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#add-task {
+  background-color: #fff;
+  border-radius: 10px;
+  border: green solid 2px;
+  color: green;
+  flex: 1;
+  font-size: 1.2rem;
+  padding: 5px;
+  transition: 0.3s;
+}
+
+#add-task:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.task {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.task li {
+  flex: 4;
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 10px;
+  padding: 5px;
+}
+
+.task button {
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.task .check-task {
+  border: solid 2px orange;
+  color: orange;
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.task .check-task:hover {
+  background-color: orange;
+  color: white;
+}
+
+.task .delete-task {
+  border: solid 2px red;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.task .delete-task:hover {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,28 @@
+#main-heading {
+  font-style: italic;
+}
+
+.list-items {
+  list-style-type: none;
+}
+
+/* Reveal More */
+.hidden-content {
+  display: none;
+}
+
+.hidden-content.reveal-btn {
+  display: block;
+}
+
+/* Event Probagation */
+.div-2 {
+  background: blue;
+  margin: auto;
+}
+
+.div-1 {
+  background: gold;
+  margin: auto;
+  width: 80%;
+}
